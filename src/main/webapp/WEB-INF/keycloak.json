@@ -1,0 +1,13 @@
+{
+  "realm": "transaction-app",
+  "auth-server-url": "http://127.0.0.1:8080/",
+  "ssl-required": "external",
+  "resource": "transaction-client",
+  "verify-token-audience": true,
+  "credentials": {
+    "secret": "ChcXkTMGYKTZi4d26iNon4A6OWaosP1o"
+  },
+  "use-resource-role-mappings": true,
+  "confidential-port": 0,
+  "policy-enforcer": {}
+}
